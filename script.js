@@ -338,11 +338,12 @@
     toggleImage.style.height = '30px';
     toggleImage.style.cursor = 'pointer';
     toggleImage.style.zIndex = '1001';
+    toggleImage.style.left = '75px';
+    toggleImage.style.bottom = '90px';
     document.body.appendChild(toggleImage);
 
     function adjustToggleImagePosition() {
-        toggleImage.style.top = (window.innerHeight - 120) + 'px';
-        toggleImage.style.left = (window.innerWidth - 1016) + 'px';
+      
     }
 
     window.addEventListener('resize', adjustToggleImagePosition);
