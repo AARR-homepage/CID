@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Discord Channel ID Extractor
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  Extract Discord channel IDs from links on the page
 // @author       Your Name
 // @match        https://discord.com/*
